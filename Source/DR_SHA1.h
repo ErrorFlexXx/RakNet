@@ -224,6 +224,12 @@
 #endif // _MSC_VER
 #endif // UINT_64
 
+#ifdef _MSC_VER // Compiling with Microsoft compiler
+#ifndef TCHAR
+#define TCHAR char
+#endif
+#endif
+
 ///////////////////////////////////////////////////////////////////////////
 // Declare SHA-1 workspace
 
