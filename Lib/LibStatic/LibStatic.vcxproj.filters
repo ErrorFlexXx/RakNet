@@ -676,6 +676,9 @@
     <ClInclude Include="..\..\Source\WSAStartupSingleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\RakNetSocket2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\LocklessTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
